@@ -30,3 +30,5 @@ msbuild.wrn
 .vscode
 .gradle
 CI/variables.yml
+
+.vs
