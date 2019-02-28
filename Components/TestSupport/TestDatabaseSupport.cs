@@ -10,6 +10,7 @@ namespace TestSupport
         public static string BacklogConnectionString => ConnectionString("tracker_backlog_dotnet_test");
         public static string AllocationsConnectionString => ConnectionString("tracker_allocations_dotnet_test");
         public static string TimesheetsConnectionString => ConnectionString("tracker_timesheets_dotnet_test");
+        public static string ExpensesConnectionString => ConnectionString("tracker_expenses_dotnet_test");
 
         private const string DbUser = "tracker_dotnet";
         private const string DbPassword = "password";
